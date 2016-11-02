@@ -16,7 +16,6 @@ body {
         text-rendering: optimizeLegibility;
         height: 100%;
     @include media-query($on-palm) {
-        font-size: $base-font-size;
         max-width: 100%;
         padding: 1em;
     }
@@ -145,4 +144,7 @@ blockquote {
     padding: 1.5em;
     list-style: decimal;
     display: inline-block;
+}
+.post-list {
+    margin: 1em;
 }

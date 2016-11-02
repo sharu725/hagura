@@ -16,16 +16,20 @@ body {
         text-rendering: optimizeLegibility;
         height: 100%;
     @include media-query($on-palm) {
-        font-size: 0.7*$base-font-size;
+        font-size: $base-font-size;
         max-width: 100%;
-        padding: 2em;
+        padding: 1em;
     }
 
     }
-
+p {
+    @include media-query($on-palm) {
+        font-size: 18px;
+    }  
+}
     h1,h2,h3,h4,h5,h6 {
          font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-        font-weight: bold;
+         font-weight: bold;
          line-height: 1.8;
          margin: 0;
          text-transform: capitalize;

@@ -39,6 +39,8 @@ a {
     color: $text-color;
     text-decoration: none;
     background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
+    background:  -o-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
+    background:  -moz-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
     box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
     -webkit-transition: box-shadow ease 1s;
 	-moz-transition: box-shadow ease 1s;

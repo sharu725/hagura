@@ -5,15 +5,70 @@ date: 2016-11-02
 ---
 
 
-Hagura is a [Kannada](https://en.wikipedia.org/wiki/Kannada){: target="_blank"} word for light-weight. It is very light and has very little CSS. But, I did not want to compromize the looks. The theme has very legible font style and distraction free layout. 
+![sample post]({{site.baseurl}}/images/image-3.png)
 
-Now, a little more about Kannada. Kannada is probably the only language where spoken and written forms of a word are same. 
+![sample post]({{site.baseurl}}/images/image-3.png){: style="width: 100%"}
 
-**English and German:**
-Most of the time in these languages we don’t read the word as a combination of letters probably because  they use Latin script. In fact, what we speak is the phonetic transcription of the words. examples: take two similar English words “put (/pʊt/)” and “cut (/kʌt/)” the ‘u’ in “put” is spoken with ‘ʊ’ sound but in “cut” it is having ‘ʌ’ sound. Similarly the German ‘G’ in “Tag” is pronounced like English ‘K’ but  the same German ‘G’ in “Gut” is pronounced like English ‘G’ itself.
 
-So it’s plain that in European languages (at least in English and German and probably in French, Italian and Spanish also) the written and spoken forms of words are quite different. Further there are more strange practices especially in English, like using silent letters(doubt), epiglottis stop for repeated letters (bottle),  not pronouncing ending letters (come, going, trying) and some really strange words (programme, analogue, queue) etc.
+# Header 1
 
-Now the question is whether there is a language where spoken and written forms of a word are same? The answer is yes, there is a language called Kannada where a word is written and spoken in exactly same way. You can just pick up the letters that you want and put them together to form a word, it may not have meaning but it will be pronounced as if you are reading the letters together. I don’t want to call it as a superiority aspect of this language and take pride in this language being my mother tongue but I would say that it is something unique of this language. 
+## Header 2
 
-Source: [prismoflife](https://prismoflife.wordpress.com/2013/07/13/reading-exactly-what-is-written-and-writing-exactly-what-is-spoken)
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+###### Header 6
+
+
+
+## Paragraphs
+
+These are sample paragraphs showing *italics*, **bold** and ``code`` text style. Here is an unordered  list 
+
+* Item 1
+* Item 2
+* Item 3
+
+and an ordered list
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+>A blockquote would look like this.
+
+> another one 
+>
+> with multiple lines
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+A code block would look like this.
+{% highlight html %}
+
+<div class="nav">
+    <ul>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Project</li>
+    </ul>
+</div>
+
+
+{% endhighlight %}
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+
+
+Use below code to show **Table of Contents** on a page
+
+{% highlight css %}
+* Do not remove this line (it will not be displayed) 
+{:toc}
+{% endhighlight %}

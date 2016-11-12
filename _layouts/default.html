@@ -11,13 +11,15 @@ layout: compress
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   {% seo %}
 </head>
-<body>
+<body id="body">
   <header>
       <a href="{{site.baseurl}}/"><div class="home"></div></a>
   </header>
 
   {{ content }}
 
+<script src="{{site.baseurl}}/js/dark.js"></script>
 {% include analytics.html %}
+
 </body>
 </html>

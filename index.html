@@ -4,5 +4,5 @@ layout: post
 ---
 
 {% for post in site.posts %}
-<h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+<h3 class="post-list"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
 {% endfor %}

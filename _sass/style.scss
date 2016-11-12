@@ -15,8 +15,8 @@ body {
         padding: 2em 1em 1em 0em;
         text-rendering: optimizeLegibility;
         height: 100%;
+    background-color: #fff;
     @include media-query($on-palm) {
-        font-size: $base-font-size;
         max-width: 100%;
         padding: 1em;
     }
@@ -40,6 +40,8 @@ a {
     color: $text-color;
     text-decoration: none;
     background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
+    background:  -o-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
+    background:  -moz-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
     box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
     -webkit-transition: box-shadow ease 1s;
 	-moz-transition: box-shadow ease 1s;
@@ -145,4 +147,7 @@ blockquote {
     padding: 1.5em;
     list-style: decimal;
     display: inline-block;
+}
+.post-list {
+    margin: 1em;
 }

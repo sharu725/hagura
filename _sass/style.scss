@@ -15,6 +15,7 @@ body {
         padding: 2em 1em 1em 0em;
         text-rendering: optimizeLegibility;
         height: 100%;
+    background-color: #fff;
     @include media-query($on-palm) {
         max-width: 100%;
         padding: 1em;

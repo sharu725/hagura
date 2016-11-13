@@ -12,13 +12,12 @@ body {
         line-height: $base-line-height;
         font-size: $base-font-size;
         color: $text-color;
-        padding: 2em 1em 1em 0em;
+        padding: 2em 1em;
         text-rendering: optimizeLegibility;
         height: 100%;
     @include media-query($on-palm) {
-        font-size: 0.7*$base-font-size;
         max-width: 100%;
-        padding: 2em;
+        padding: 1em;
     }
 
     }
@@ -95,7 +94,7 @@ blockquote {
 .headline {
     font-size: 4em;
         @include media-query($on-palm) {
-            font-size: 1.4*$base-font-size;
+            font-size: 2.4em;
     }
 }
 

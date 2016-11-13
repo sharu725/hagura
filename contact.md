@@ -1,7 +1,7 @@
 ---
-title: About Hagura
+title: Contact
 layout: post
-permalink: /about/
+permalink: /contact/
 ---
 
 

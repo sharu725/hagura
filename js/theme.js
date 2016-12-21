@@ -1,27 +1,29 @@
+document.body.style.backgroundColor = sessionStorage.getItem('bg');
+document.body.style.color = sessionStorage.getItem('cc');
 function theme() {
-     if ( data === 'rgb(255, 255, 255)') {
+     if ( sessionStorage.getItem('bg') === 'rgb(255, 255, 255)') {
          
             sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
             sessionStorage.setItem('cc', '#777');
-            document.location.reload();
+            
          
      }
-    else if (data == null || undefined) {
+    else if (sessionStorage.getItem('bg') == null || undefined) {
         sessionStorage.setItem('bg', 'rgb(6, 23, 37)');
         sessionStorage.setItem('cc', '#777');
-        document.location.reload();
+        
     }
-    else if( data === 'rgb(6, 23, 37)') {
+    else if( sessionStorage.getItem('bg') === 'rgb(6, 23, 37)') {
         
         sessionStorage.setItem('bg', 'rgb(255, 255, 255)');
         sessionStorage.setItem('cc', '#333');
-        document.location.reload();
+        
   
     }
 
-};
+document.body.style.backgroundColor = sessionStorage.getItem('bg');
+document.body.style.color = sessionStorage.getItem('cc');
 
-var data = sessionStorage.getItem('bg');
-var color = sessionStorage.getItem('cc');
-document.body.style.backgroundColor = data;
-document.body.style.color = color;
+}
+
+

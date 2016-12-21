@@ -5,6 +5,10 @@
     transition-timing-function: linear;
       } */
 
+html, body {
+    height: 100%;
+}
+
 body {
         max-width: $content-width;
         font-family: $base-font-family;
@@ -94,7 +98,14 @@ blockquote {
 .headline {
     font-size: 4em;
         @include media-query($on-palm) {
-            font-size: 2.4em;
+            font-size: 2em;
+    }
+}
+
+.post-headline {
+    font-size: 4em;
+        @include media-query($on-palm) {
+            font-size: 1.5em;
     }
 }
 
@@ -152,7 +163,7 @@ blockquote {
     display: inline-block;
 }
 
-
+/* Theme switch button */
 .theme {
     background-size: contain;
     height: 40px;
@@ -163,3 +174,17 @@ blockquote {
         opacity: 0.9;
     }
 }
+
+footer {
+    position: relative;
+    top: 2em;
+}
+
+/* Footer navigation links */
+.links a {
+    margin-right: 1em;
+}
+
+
+
+

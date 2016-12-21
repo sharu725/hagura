@@ -1,6 +1,6 @@
 ### your site title here
 
-title: Webjeda Hagura
+title: Hagura - Light!
 baseurl: /hagura # name of the repository
 
 highlighter: rouge
@@ -8,9 +8,12 @@ markdown: kramdown
 ### exclude the instructions / write-up in the README.md
 
 
-
 # Tracker
 analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
 
 #optimization
 #compress.html

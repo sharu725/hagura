@@ -4,4 +4,4 @@ layout: post
 permalink: /about/
 ---
 
-Something about you here!
+For more themes, visit [https://blog.webjeda.com](https://blog.webjeda.com)

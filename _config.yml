@@ -1,6 +1,6 @@
 ### your site title here
 
-title: Hagura - Light!
+title: Portfolio - Heather Poole
 baseurl: http://heathercpoole.com/heather_poole # name of the repository
 email: heather@heathercpoole.com
 
@@ -29,7 +29,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
+
 
 sass:
  style: compressed

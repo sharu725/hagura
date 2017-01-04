@@ -39,5 +39,3 @@ exclude:
 
 
 gems: [jekyll-seo-tag, jekyll-paginate]
-
-theme: jekyll-theme-minimal

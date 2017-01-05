@@ -1,7 +1,8 @@
 ---
-title: About Hagura
+title: About this site
 layout: post
 permalink: /about/
 ---
 
-For more themes, visit [https://blog.webjeda.com](https://blog.webjeda.com)
+This is a website that has been put together for applying to Senior software engineer position at the
+HM Land Registry.

@@ -5,7 +5,6 @@ baseurl: /heather_poole # name of the repository
 email: heather@heathercpoole.com
 
 
-
 highlighter: rouge
 markdown: kramdown
 ### exclude the instructions / write-up in the README.md
@@ -13,9 +12,6 @@ markdown: kramdown
 
 # Tracker
 analytics: UA-83979019-1
-
-# Comments
-disqus-shortname: webjeda-demo
 
 
 #optimization

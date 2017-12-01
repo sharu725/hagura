@@ -19,10 +19,10 @@ body {
         padding: 2em 1em;
         text-rendering: optimizeLegibility;
         height: 100%;
-    @include media-query($on-palm) {
-        max-width: 100%;
-        padding: 1em;
-    }
+        @include media-query($on-palm) {
+            max-width: 100%;
+            padding: 1em;
+        }
 
     }
 
@@ -97,6 +97,7 @@ blockquote {
 
 .headline {
     font-size: 4em;
+    
         @include media-query($on-palm) {
             font-size: 2em;
     }
@@ -165,14 +166,7 @@ blockquote {
 
 /* Theme switch button */
 .theme {
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin: 1em 0;
     cursor: pointer;
-    &:hover {
-        opacity: 0.9;
-    }
 }
 
 footer {
@@ -188,3 +182,11 @@ footer {
 
 
 
+
+.article-list {
+    margin: 1em 0;
+}
+
+.copy {
+    color: #aaa;
+}

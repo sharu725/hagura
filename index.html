@@ -2,6 +2,9 @@
 layout: default
 ---
 <h1 class="headline">{{site.title}}</h1>
+<div class="article-list">
 {% for post in site.posts %}
-<h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{post.excerpt | strip_html}}</p>
 {% endfor %}
+</div>

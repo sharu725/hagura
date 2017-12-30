@@ -42,6 +42,9 @@ The default theme will look like this
 
 ![webjeda hagura jekyll theme]({{site.baseurl}}/images/hagura-1.png)
 
+Switch to Dark Theme
+
+![webjeda hagura dark jekyll theme](http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive as well.
 

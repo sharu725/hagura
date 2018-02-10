@@ -15,18 +15,20 @@ The theme comes with pre-installed analytics, disqus and html compressor. But ma
 * Go to settings and set Github Pages source as master.
 * Your new site should be ready at https://username.github.io/hagura/
 
+Watch my video on instlallation
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 
 Default theme will look like this
 
-![webjeda hagura jekyll theme](http://webjeda.com/hagura/images/hagura-1.png)
+![webjeda gatok jekyll theme](http://webjeda.com/hagura/images/hagura-1.png)
 
-Switch to Dark Theme
-
-![webjeda hagura dark jekyll theme](http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda hagura responsive jekyll theme](http://webjeda.com/hagura/images/hagura-responsive.png)
+![webjeda gatok responsive jekyll theme](http://webjeda.com/hagura/images/hagura-responsive.png)
+
 
 
 ## Development

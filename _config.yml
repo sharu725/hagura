@@ -1,7 +1,6 @@
 ### your site title here
 
 title: Hagura - Light!
-baseurl: /hagura # name of the repository
 email: your@email.com
 
 
@@ -29,7 +28,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
+
 
 sass:
  style: compressed

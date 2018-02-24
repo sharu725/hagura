@@ -1,20 +1,16 @@
 ### your site title here
 
-title: Hagura - Light!
-email: your@email.com
-
-
+title: umpirsky
+email: umpirsky@gmail.com
 
 highlighter: rouge
 markdown: kramdown
-### exclude the instructions / write-up in the README.md
-
 
 # Tracker
-analytics: UA-83979019-1
+analytics: ~
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: umpirsky
 
 
 #optimization

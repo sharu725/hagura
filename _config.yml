@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 
 # Tracker
-analytics: ~
+analytics: UA-6935870-12
 
 # Comments
 disqus-shortname: the-wall-1

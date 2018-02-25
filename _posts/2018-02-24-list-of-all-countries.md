@@ -16,7 +16,7 @@ The mind flow was something like: login and registration form, ok, they have som
 
 I started googling around for a good data source, searched on GitHub, but no good resource was found back then. I needed something that is available in a variety of formats, multilingual and easy to use. So scraping [Wikipedia](https://en.wikipedia.org/wiki/List_of_sovereign_states) was not an option (although that would probably work for this project).
 
-Since I enjoy building stuff, I sit down and wrote a piece of PHP code which generates a list of all **country names** with **ISO 3166-1** codes. The list was available in JSON, yaml and PHP at first. It used [ICU](http://site.icu-project.org/) as the data source, so staying up to date was not the problem.
+Since I enjoy building stuff, I sit down and wrote a [piece of PHP code](https://github.com/umpirsky/country-list) which generates a list of all **country names** with **ISO 3166-1** codes. The list was available in JSON, yaml and PHP at first. It used [ICU](http://site.icu-project.org/) as the data source, so staying up to date was not the problem.
 
 It was very simple to use, but it was a small weekend project, and I expected nothing. But project grew and got traction, I never thought something so silly as list of countries can be so popular.
 

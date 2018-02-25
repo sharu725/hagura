@@ -8,7 +8,7 @@ Back [in 2012](https://github.com/umpirsky/country-list/commit/50807f21ab61a3151
 
 > What do most websites need, no matter what tech stack they are built on?
 
-The mind flow was something like: login and registration form, ok, they have some fields, most of them empty...and one of them is the **select country field**. You need to feed it with data, and where's the data coming from?
+The mind flow was something like: login and registration form, ok, they have some fields, most of them empty...but one of them not - the **select country field**. You need to feed it with data, and where's the data coming from?
 
 ![Flags]({{site.baseurl}}/images/posts/2018-02-24-list-of-all-countries/flags.jpg)
 <!--more-->
@@ -16,7 +16,7 @@ The mind flow was something like: login and registration form, ok, they have som
 
 I started googling around for a good data source, searched on GitHub, but no good resource was found back then. I needed something that is available in a variety of formats, multilingual and easy to use. So scraping [Wikipedia](https://en.wikipedia.org/wiki/List_of_sovereign_states) was not an option (although that would probably work for this project).
 
-Since I enjoy building stuff, I sit down and wrote a piece of PHP code which generates a list of all country names with ISO 3166-1 codes. The list was available in JSON, yaml and PHP at first. It used [ICU](http://site.icu-project.org/) as the data source, so staying up to date was not the problem.
+Since I enjoy building stuff, I sit down and wrote a piece of PHP code which generates a list of all **country names** with **ISO 3166-1** codes. The list was available in JSON, yaml and PHP at first. It used [ICU](http://site.icu-project.org/) as the data source, so staying up to date was not the problem.
 
 It was very simple to use, but it was a small weekend project, and I expected nothing. But project grew and got traction, I never thought something so silly as list of countries can be so popular.
 
@@ -38,7 +38,7 @@ All formats are also [available](https://github.com/umpirsky/country-list/tree/m
 
 ## Everybody Needs a Country Table
 
-For developers, this is the most common case, they simply need a country databaase table. There are few **SQL dumps** for each DBMS:
+For developers, this is the most common case, they simply need a country databaase table. There are **SQL dumps** for each DBMS:
 
 * [MySQL](https://github.com/umpirsky/country-list/blob/master/data/en/country.mysql.sql)
 * [PostgreSQL](https://github.com/umpirsky/country-list/blob/master/data/en/country.postgresql.sql)

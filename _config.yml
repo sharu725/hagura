@@ -28,5 +28,6 @@ sass:
 
 exclude:
 - README.md
+- docker-compose.yml
 
 gems: [jekyll-seo-tag, jekyll-paginate]

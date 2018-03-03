@@ -2,6 +2,7 @@
 layout: post
 title: List of All Countries
 excerpt_separator: <!--more-->
+crosspost_to_medium: true
 ---
 
 Back [in 2012](https://github.com/umpirsky/country-list/commit/50807f21ab61a31510b8ba20c0908b11201d7576), I was sitting in front of the screen and asked myself:

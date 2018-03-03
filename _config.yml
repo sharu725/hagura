@@ -23,6 +23,9 @@ compress_html:
   profile: false
   startings: []
 
+jekyll-crosspost_to_medium:
+  text: '<p><i>Originally published on <a href=\"#{url}\" rel=\"canonical\">The Wall</a>.</i></p>'
+
 sass:
  style: compressed
 
@@ -30,4 +33,7 @@ exclude:
 - README.md
 - docker-compose.yml
 
-gems: [jekyll-seo-tag, jekyll-paginate]
+plugins:
+    - jekyll-seo-tag
+    - jekyll-paginate
+    - jekyll-crosspost-to-medium

@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-crosspost-to-medium (0.1.14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-crosspost-to-medium
+
+BUNDLED WITH
+   1.16.1

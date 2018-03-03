@@ -1,22 +1,15 @@
-### your site title here
-
-title: Hagura - Light!
-baseurl: /hagura # name of the repository
-email: your@email.com
-
-
+title: The Wall
+name: Saša Stamenković
+email: umpirsky@gmail.com
 
 highlighter: rouge
 markdown: kramdown
-### exclude the instructions / write-up in the README.md
-
 
 # Tracker
-analytics: UA-83979019-1
+analytics: UA-6935870-12
 
 # Comments
-disqus-shortname: webjeda-demo
-
+disqus-shortname: umpirsky
 
 #optimization
 #compress.html
@@ -29,13 +22,18 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
+
+jekyll-crosspost_to_medium:
+  text: '<p><i>Originally published on <a href=\"#{url}\" rel=\"canonical\">The Wall</a>.</i></p>'
 
 sass:
  style: compressed
 
 exclude:
 - README.md
+- docker-compose.yml
 
-
-gems: [jekyll-seo-tag, jekyll-paginate]
+plugins:
+    - jekyll-seo-tag
+    - jekyll-paginate
+    - jekyll-crosspost-to-medium

@@ -8,7 +8,9 @@ email: your@email.com
 
 highlighter: rouge
 markdown: kramdown
-### exclude the instructions / write-up in the README.md
+
+
+paginate: 4
 
 
 # Tracker

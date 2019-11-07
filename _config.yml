@@ -34,7 +34,8 @@ compress_html:
 
 
 sass:
- style: compressed
+  sass_dir: /assets/css/_sass
+  style: compressed
 
 exclude:
 - README.md

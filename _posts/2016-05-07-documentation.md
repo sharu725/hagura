@@ -25,15 +25,15 @@ The best part is the night-mode that comes with this theme. Once you click on ni
 
 Default theme will look like this
 
-![webjeda hagura jekyll theme](http://webjeda.com/hagura/images/hagura-1.png)
+![webjeda hagura jekyll theme]({{site.baseurl}}/assets/images/hagura-1.png)
 
 Switch to Dark Theme
 
-![webjeda hagura dark jekyll theme](http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png)
+![webjeda hagura dark jekyll theme]({{site.baseurl}}/assets/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda hagura responsive jekyll theme](http://webjeda.com/hagura/images/hagura-responsive.png)
+![webjeda hagura responsive jekyll theme]({{site.baseurl}}/assets/images/hagura-responsive.png)
 
 
 ## Development

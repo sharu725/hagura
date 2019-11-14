@@ -22,7 +22,7 @@ Default theme will look like this
 
 Switch to Dark Theme
 
-![webjeda hagura dark jekyll theme](/images/hagura-dark-jekyll-theme.png)
+![webjeda hagura dark jekyll theme](/hagura/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive.
 

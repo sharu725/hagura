@@ -1,6 +1,6 @@
 ## Webjeda Hagura Theme
 
-[**Demo**](http://webjeda.com/hagura)
+[**Demo**](http://hagura.webjeda.com/)
 
 Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well with a switchable theme.
 

@@ -1,7 +1,8 @@
 ### your site title here
 
 title: Hagura - Light!
-baseurl: /hagura # name of the repository
+# disabled because we are using a custom domain
+#baseurl: /hagura # name of the repository
 email: your@email.com
 
 

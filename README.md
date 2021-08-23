@@ -18,15 +18,15 @@ The theme comes with pre-installed analytics, disqus and html compressor. But ma
 
 Default theme will look like this
 
-![webjeda hagura jekyll theme](https://webjeda.com/hagura/assets/images/hagura-1.png)
+![webjeda hagura jekyll theme](https://hagura.webjeda.com/assets/images/hagura-1.png)
 
 Switch to Dark Theme
 
-![webjeda hagura dark jekyll theme](https://webjeda.com/hagura/assets/images/hagura-dark-jekyll-theme.png)
+![webjeda hagura dark jekyll theme](https://hagura.webjeda.com/assets/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda hagura responsive jekyll theme](https://webjeda.com/hagura/assets/images/hagura-responsive.png)
+![webjeda hagura responsive jekyll theme](https://hagura.webjeda.com/assets/images/hagura-responsive.png)
 
 
 ## Development

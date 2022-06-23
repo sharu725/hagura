@@ -1,6 +1,6 @@
 ## Webjeda Hagura Theme
 
-[**Demo**](http://webjeda.com/hagura)
+[**Demo**](http://hagura.webjeda.com/)
 
 Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well with a switchable theme.
 
@@ -18,15 +18,15 @@ The theme comes with pre-installed analytics, disqus and html compressor. But ma
 
 Default theme will look like this
 
-![webjeda hagura jekyll theme](http://webjeda.com/hagura/images/hagura-1.png)
+![webjeda hagura jekyll theme](https://hagura.webjeda.com/assets/images/hagura-1.png)
 
 Switch to Dark Theme
 
-![webjeda hagura dark jekyll theme](http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png)
+![webjeda hagura dark jekyll theme](https://hagura.webjeda.com/assets/images/hagura-dark-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda hagura responsive jekyll theme](http://webjeda.com/hagura/images/hagura-responsive.png)
+![webjeda hagura responsive jekyll theme](https://hagura.webjeda.com/assets/images/hagura-responsive.png)
 
 
 ## Development

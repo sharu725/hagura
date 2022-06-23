@@ -1,7 +1,8 @@
 ### your site title here
 
 title: Hagura - Light!
-baseurl: /hagura # name of the repository
+# disabled because we are using a custom domain
+#baseurl: /hagura # name of the repository
 email: your@email.com
 
 highlighter: rouge
@@ -30,10 +31,15 @@ compress_html:
 
 
 sass:
- style: compressed
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
 
 exclude:
-- README.md
+  - README.md
+  - LICENSE.md
 
 
 plugins:

@@ -144,7 +144,7 @@ blockquote {
 
     a {
       &:hover {
-        background-color: #f1f1f1;
+        background-color: transparent;
         color: #333;
       }
     }
@@ -154,7 +154,7 @@ blockquote {
       border: 1px solid #eee;
       margin-left: -4px;
       margin-right: -4px;
-      background-color: #ffffff;
+      background-color: transparent;
       display: inline-block;
     }
 }

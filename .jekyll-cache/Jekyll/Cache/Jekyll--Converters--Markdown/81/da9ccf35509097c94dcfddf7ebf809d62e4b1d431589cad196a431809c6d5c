@@ -1,0 +1,55 @@
+I"~	<h1 id="features">Features:</h1>
+<p>Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well.</p>
+
+<p>Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light so that it loads instantly on a slow data connection.</p>
+
+<p>The theme comes with pre-installed <strong>analytics</strong>, <strong>disqus</strong> and <strong>html compressor</strong>. But make sure you change key parameters in the <strong>_config.yml</strong> file.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#features" id="markdown-toc-features">Features:</a>    <ul>
+      <li><a href="#switch-night-mode" id="markdown-toc-switch-night-mode">Switch Night-Mode</a></li>
+      <li><a href="#installation" id="markdown-toc-installation">Installation</a></li>
+      <li><a href="#development" id="markdown-toc-development">Development</a></li>
+      <li><a href="#license" id="markdown-toc-license">License</a>        <ul>
+          <li><a href="#version-10" id="markdown-toc-version-10">Version 1.0</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="switch-night-mode">Switch Night-Mode</h2>
+<p>The best part is the night-mode that comes with this theme. Once you click on night-mode, the website remebers it untill you close or toggle!</p>
+
+<h2 id="installation">Installation</h2>
+<ul>
+  <li>Fork the repository</li>
+  <li>Go to settings and set Github Pages source as master.</li>
+  <li>Your new site should be ready at https://username.github.io/hagura/</li>
+</ul>
+
+<p>Default theme will look like this</p>
+
+<p><img src="http://webjeda.com/hagura/images/hagura-1.png" alt="webjeda hagura jekyll theme" /></p>
+
+<p>Switch to Dark Theme</p>
+
+<p><img src="http://webjeda.com/hagura/images/hagura-dark-jekyll-theme.png" alt="webjeda hagura dark jekyll theme" /></p>
+
+<p>This theme is responsive.</p>
+
+<p><img src="http://webjeda.com/hagura/images/hagura-responsive.png" alt="webjeda hagura responsive jekyll theme" /></p>
+
+<h2 id="development">Development</h2>
+<p>Make changes to the <strong>master</strong> branch and create a pull request. Do not use <strong>gh-pages</strong> branch as it is used to host the theme.</p>
+
+<h2 id="license">License</h2>
+<p>MIT License</p>
+
+<h3 id="version-10">Version 1.0</h3>
+<ul>
+  <li>Description along with the title in the index page.</li>
+  <li>Removed ugly theme switch icon and added text link.</li>
+</ul>
+
+:ET

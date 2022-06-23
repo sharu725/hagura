@@ -7,7 +7,10 @@ email: your@email.com
 
 highlighter: rouge
 
+permalink: /:title/
 paginate: 4
+paginate_path: /page:num/
+
 
 
 # Tracker

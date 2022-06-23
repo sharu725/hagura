@@ -1,36 +1,46 @@
 ---
-layout: compress
+# layout: compress
 ---
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-<!--   <link href="https://fonts.googleapis.com/css?family=Lato:900|Work+Sans" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-  {% seo %}
-</head>
-<body style="background-color: rgb(255, 255, 255)">
- <script async src="{{site.baseurl}}/js/theme.min.js"></script>
-  <header>
-      <a href="{{site.baseurl}}/"><div class="home"></div></a>
-  </header>
 
-    <main>
-    <article>
-    {{ content }}
-    </article>
-    </main>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
-<footer>
-    <div class="links">
-        <a href="{{site.baseurl}}/about/">About</a>
-        <a href="{{site.baseurl}}/contact/">Contact</a>
-        <a class="theme" onclick="theme()">Dark/Light</a>
-    </div>
-    <p class="copy"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
-</footer>
-{% include analytics.html %}
-</body>
+        {% seo %}
+    </head>
+
+    <body style="background-color: rgb(255, 255, 255)">
+        <script async src="{{site.baseurl}}/assets/js/theme.min.js"></script>
+        <header>
+            <a href="{{site.baseurl}}/">
+                <div class="home"></div>
+            </a>
+        </header>
+
+        <main>
+            <article>
+                {{ content }}
+            </article>
+        </main>
+
+        <footer>
+            <div class="links">
+                <a href="{{site.baseurl}}/about/">About</a>
+                <a href="{{site.baseurl}}/contact/">Contact</a>
+                <a class="theme" onclick="theme()">Dark/Light</a>
+            </div>
+            <p class="copy">
+                <small>Copyrights by
+                    {{site.title}}
+                    | Developed by
+                    <a href="http://webjeda.com">webjeda</a>
+                </small>
+            </p>
+        </footer>
+        {% include analytics.html %}
+    </body>
+
 </html>

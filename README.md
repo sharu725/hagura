@@ -2,7 +2,7 @@
 
 [**Demo**](http://hagura.webjeda.com/)
 
-Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well with a switchable theme.
+Hagura is a theme made for blogs with long text paragraphs. Made to be easy on the eyes as well with a switchable theme.
 
 Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light and it loads instantly even on a slow data connection.
 

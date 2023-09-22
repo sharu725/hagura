@@ -6,7 +6,7 @@ title: Sensores del telefono
 
 |         Sensor        | Icono |                       Descripción                      | Disponibilidad | Captura de Pantalla |
 |:---------------------:|:-----:|:------------------------------------------------------:|:--------------:|:-------------------:|
-|      Acelerómetro     |       | Detectar dirección del dispositivo.                    |       Sí       | ../assets/images/SensoresTel/Acelerometro.jpg                    |
+|      Acelerómetro     |       | Detectar dirección del dispositivo.                    |       Sí       | ![](../assets/images/SensoresTel/Acelerometro.jpg)                    |
 |     Sensor de luz     |       | Detecta la intensidad de la luz del entorno.           |       Sí       |                     |
 | Sensor de Orientación |       | Estado de la dirección del dispositivo.                |       Sí       |                     |
 |  Sensor de Proximidad |       | Distancia del dispositivo a la cara/manos.             |       Sí       |                     |
